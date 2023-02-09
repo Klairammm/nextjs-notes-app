@@ -1,0 +1,12 @@
+.NoteContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    filter: drop-shadow(1px 1px 10px black);
+  }
+}

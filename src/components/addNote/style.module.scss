@@ -1,0 +1,22 @@
+.AddNote {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      width: 100%;
+      filter: drop-shadow(1px 1px 10px black);
+    }
+    .btn {
+      cursor: pointer;
+    }
+  }
+}

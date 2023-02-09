@@ -1,0 +1,16 @@
+.NoteItem {
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    border-bottom: 1px solid whitesmoke;
+  }
+  button {
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
